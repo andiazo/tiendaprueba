@@ -1,0 +1,120 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 120px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.topmargin-xs { margin-top: 15px; }
+.topmargin-sm { margin-top: 30px; }
+.topmargin-lg { margin-top: 60px; }
+
+.btn {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 26px;
+    min-widht: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: #3F505A;
+    color: white;
+    border: 2px solid #3F505A;
+}
+
+.navbar {
+    background-color: #ffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0 ,.05);
+}
+
+.nav-link {
+    color: #1a1a1a;
+}
+
+.nav-link:hover {
+    color: #1a1a1a;
+    background-color: rgba(0, 0, 0 ,.05);
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+a ion-icon {
+    color: black;
+}
+
+#hero {
+    background-image: url('gray-wool.jpg');
+    background-size: cover;
+    padding-top: 200px;
+    min-height: 650px;
+}
+
+.content-center {
+    max-widht: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.bg-light-grey {
+    background-color: #f5f5f5;
+}
+
+.portfolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 5px;
+    border-radius: 2px;
+}
+
+.portfolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details a h2, .portfolio a p {
+    color: white;
+}
